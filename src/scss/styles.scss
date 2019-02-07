@@ -3,10 +3,6 @@
   background-color: #fdf02c;
 }
 
-body{
-  color: black;
-}
-
 nav{
   z-index: 1;
   position: absolute;
@@ -16,8 +12,7 @@ nav{
 #carouselImg{
   width: 100%;
   max-width:100%;
-  height: 100%;
-  max-height: 100%;
+  height: auto;
 }
 
 #bootstrap-overrides .carousel-inner{
@@ -50,6 +45,11 @@ nav{
   background-size: cover;
 }
 
+.news_img:hover{
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
 .full_width_height{
   width: 100%;
   height: 100%;
@@ -69,4 +69,31 @@ nav{
 
 #bootstrap-overrides .card{
   border: none;
+}
+
+.circulo{
+  background: rgba(0,0,0,.8);
+  width: 48px;
+  height: 48px;
+  display: none;
+  text-align: center;
+  position: absolute;
+  top: 36%;
+  left: 42%;
+  border-radius: 100%;
+}
+
+.mas{
+  display: inline-block;
+  font-weight: 700;
+  color: #fff;
+  font-size: 32px;
+}
+
+.news_img:hover + .circulo{
+  display: initial;
+}
+
+.circulo:hover{
+  display: initial;
 }
