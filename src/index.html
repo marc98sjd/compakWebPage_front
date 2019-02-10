@@ -42,12 +42,16 @@
                         </div>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#">GALERÍA</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#">PARTNERS</a>
                     </li>
                 </ul>
             </div>
         </nav>
 
+        <!-- CAROUSEL -->
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -55,14 +59,14 @@
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
-                <div class="carousel-item active" id="carouselImgContainer">
-                    <img id="carouselImg" class="d-block w-100 img-responsive" src="images/car1.jpg" alt="First slide">
+                <div class="carousel-item active">
+                    <img class="d-block w-100 carouselImg" src="images/car1.jpg" alt="First slide">
                 </div>
-                <div class="carousel-item" id="carouselImgContainer">
-                    <img id="carouselImg" class="d-block w-100 img-responsive" src="images/car2.jpg" alt="Second slide">
+                <div class="carousel-item">
+                    <img class="d-block w-100 carouselImg" src="images/car2.jpg" alt="Second slide">
                 </div>
-                <div class="carousel-item" id="carouselImgContainer">
-                    <img id="carouselImg" class="d-block w-100 img-responsive" src="images/car3.jpg" alt="Third slide">
+                <div class="carousel-item">
+                    <img class="d-block w-100 carouselImg" src="images/car3.jpg" alt="Third slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -74,13 +78,15 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
+
+        <!-- NOTICIAS -->
         <div class="container">
             <div class="section-header">
                 <h3><u>Últimas noticias</u></h3>
             </div>
             <div>
                 <div class="card-deck">
-                    <div class="card text-white bg-dark mb-3">
+                    <div class="card bg-dark text-white mb-3">
                         <div class="img_box">
                             <a class="full_width_height" href="">
                                 <img id="news1" class="card-img-top news_img full_width_height" src="images/news_background.png">
@@ -93,11 +99,8 @@
                             <h5 class="card-title">Presentació oficial a l'estadi del Nàstic</h5>
                             <p class="card-text">This is a wider card with supporting   text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                         </div>
-                        <div class="card-footer">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                        </div>
                     </div>
-                    <div class="card text-white bg-dark mb-3" >
+                    <div class="card mb-3 bg-dark text-white" >
                         <div class="img_box">
                             <a class="full_width_height" href="">
                                 <img id="news2" class="card-img-top news_img full_width_height" src="images/news_background.png">
@@ -110,11 +113,8 @@
                             <h5 class="card-title">Primera cursa, primera victòria</h5>
                             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                         </div>
-                        <div class="card-footer">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                        </div>
                     </div>
-                    <div class="card text-white bg-dark mb-3">
+                    <div class="card bg-dark text-white  mb-3">
                         <div class="img_box">
                             <a class="full_width_height" href="">
                                 <img id="news3" class="card-img-top news_img full_width_height" src="images/news_background.png">
@@ -127,13 +127,10 @@
                             <h5 class="card-title">David Gòmez i Gerard Armillas omplen el podi del Campionat de Catalunya</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                         </div>
-                        <div class="card-footer">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                        </div>
                     </div>
                 </div>
                 <div class="card-deck">
-                    <div class="card text-white bg-dark mb-3">
+                    <div class="card bg-dark text-white mb-3">
                         <div class="img_box">
                             <a class="full_width_height" href="">
                                 <img id="news1" class="card-img-top news_img full_width_height" src="images/news_background.png">
@@ -150,7 +147,7 @@
                             <small class="text-muted">Last updated 3 mins ago</small>
                         </div>
                     </div>
-                    <div class="card text-white bg-dark mb-3" >
+                    <div class="card bg-dark text-white mb-3" >
                         <div class="img_box">
                             <a class="full_width_height" href="">
                                 <img id="news2" class="card-img-top news_img full_width_height" src="images/news_background.png">
@@ -167,7 +164,7 @@
                             <small class="text-muted">Last updated 3 mins ago</small>
                         </div>
                     </div>
-                    <div class="card text-white bg-dark mb-3">
+                    <div class="card bg-dark text-white mb-3">
                         <div class="img_box">
                             <a class="full_width_height" href="">
                                 <img id="news3" class="card-img-top news_img full_width_height" src="images/news_background.png">
@@ -186,7 +183,45 @@
                     </div>
                 </div>
             </div>
+        </div>
 
+        <!-- PRÓXIMAS COMPETICIONES -->
+        <div class="text-white bg-dark pb-2">
+            <div class="section-header d-flex justify-content-center">
+                <h3>Próximas competiciones</h3>
+            </div>
+            <div class="container">
+                <table class="table table-dark rounded shadow p-5">
+                    <thead>
+                    <tr>
+                        <th scope="col">Fecha</th>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Distancia</th>
+                        <th scope="col">Etapas</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>@twitter</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
 
         <!--build:js js/main.min.js -->

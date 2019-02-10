@@ -9,7 +9,7 @@ nav{
   background: rgba(0,0,0,0.7);
 }
 
-#carouselImg{
+.carouselImg{
   width: 100%;
   max-width:100%;
   height: auto;
@@ -46,7 +46,7 @@ nav{
 }
 
 .news_img:hover{
-  opacity: 0.5;
+  opacity: 0.7;
   filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 
