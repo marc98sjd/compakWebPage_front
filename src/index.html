@@ -11,6 +11,10 @@
         <link rel="stylesheet" href="scss/styles.scss">
         <link rel="stylesheet" href="css/styles.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+
+        <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
         <!--endbuild-->
     </head>
     <body id="bootstrap-overrides">
@@ -80,13 +84,13 @@
         </div>
 
         <!-- NOTICIAS -->
-        <div class="container">
+        <div class="container pb-5">
             <div class="section-header">
                 <h3><u>Últimas noticias</u></h3>
             </div>
             <div>
                 <div class="card-deck">
-                    <div class="card bg-dark text-white mb-3">
+                    <div class="card mb-3">
                         <div class="img_box">
                             <a class="full_width_height" href="">
                                 <img id="news1" class="card-img-top news_img full_width_height" src="images/news_background.png">
@@ -100,7 +104,7 @@
                             <p class="card-text">This is a wider card with supporting   text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                         </div>
                     </div>
-                    <div class="card mb-3 bg-dark text-white" >
+                    <div class="card mb-3" >
                         <div class="img_box">
                             <a class="full_width_height" href="">
                                 <img id="news2" class="card-img-top news_img full_width_height" src="images/news_background.png">
@@ -114,7 +118,7 @@
                             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                         </div>
                     </div>
-                    <div class="card bg-dark text-white  mb-3">
+                    <div class="card mb-3">
                         <div class="img_box">
                             <a class="full_width_height" href="">
                                 <img id="news3" class="card-img-top news_img full_width_height" src="images/news_background.png">
@@ -130,7 +134,7 @@
                     </div>
                 </div>
                 <div class="card-deck">
-                    <div class="card bg-dark text-white mb-3">
+                    <div class="card mb-3">
                         <div class="img_box">
                             <a class="full_width_height" href="">
                                 <img id="news1" class="card-img-top news_img full_width_height" src="images/news_background.png">
@@ -147,7 +151,7 @@
                             <small class="text-muted">Last updated 3 mins ago</small>
                         </div>
                     </div>
-                    <div class="card bg-dark text-white mb-3" >
+                    <div class="card mb-3" >
                         <div class="img_box">
                             <a class="full_width_height" href="">
                                 <img id="news2" class="card-img-top news_img full_width_height" src="images/news_background.png">
@@ -164,7 +168,7 @@
                             <small class="text-muted">Last updated 3 mins ago</small>
                         </div>
                     </div>
-                    <div class="card bg-dark text-white mb-3">
+                    <div class="card mb-3">
                         <div class="img_box">
                             <a class="full_width_height" href="">
                                 <img id="news3" class="card-img-top news_img full_width_height" src="images/news_background.png">
@@ -184,8 +188,19 @@
                 </div>
             </div>
         </div>
+
+        <!-- riders carousel -->
+        <div id="riderCarousel">
+            <div class="riderCarousel container">
+                <div id="card1">your content</div>
+                <div id="card2">your content</div>
+                <div id="card3">your content</div>
+            </div>
+        </div>
+
+
         <!-- PRÓXIMAS COMPETICIONES -->
-        <div class="pb-5">
+        <div id="nextRace" class="pb-5">
             <div class="section-header d-flex justify-content-center">
                 <h3 class="compak">Próximas competiciones</h3>
             </div>
@@ -228,11 +243,14 @@
 
 
         </footer>
+
         <!--build:js js/main.min.js -->
         <script src="js/script.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
         <!-- endbuild -->
+
     </body>
 </html>

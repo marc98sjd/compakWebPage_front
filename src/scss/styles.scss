@@ -1,6 +1,3 @@
-//importar archivos Sass de bootstrap para añadir color
-@import "node_modules/bootstrap/scss/bootstrap";
-
 //añadir color al tema bootstrap
 $theme-colors: (
         "compak": #ae2
@@ -106,7 +103,33 @@ nav{
   border-radius: 15px;
 }
 
-footer:before{
+#nextRace:before{
+  display: block;
+  width: 100%;
+  height: 8px;
+  background: #ae2;
+  border-bottom: 4px solid #FFFFFF;
+  content: '';
+}
+
+#card1{
+  background-color: yellow;
+}
+
+#card2{
+  background-color: aqua;
+}
+
+#card3{
+background-color: red;
+}
+
+.slick-prev{
+background-color: black;
+  color: black;
+}
+
+#riderCarousel:before, footer:before{
   display: block;
   width: 100%;
   height: 8px;
