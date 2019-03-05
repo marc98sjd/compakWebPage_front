@@ -31,7 +31,12 @@ nav{
 }
 
 .section-header{
-  margin-top: 70px;
+  margin-top: 55px;
+  margin-bottom: 30px;
+}
+
+.section-header2{
+  margin-top: 30px;
   margin-bottom: 30px;
 }
 
@@ -103,24 +108,15 @@ nav{
   border-radius: 15px;
 }
 
-#nextRace:before{
-  display: block;
-  width: 100%;
-  height: 8px;
-  background: #ae2;
-  border-bottom: 4px solid #FFFFFF;
-  content: '';
-}
-
-#card1{
+.card1{
   background-color: yellow;
 }
 
-#card2{
+.card2{
   background-color: aqua;
 }
 
-#card3{
+.card3{
 background-color: red;
 }
 
@@ -136,4 +132,140 @@ background-color: black;
   background: #ae2;
   border-bottom: 4px solid #FFFFFF;
   content: '';
+}
+
+#bootstrap-overrides .riderCard{
+  border-radius: 25px;
+}
+
+#bootstrap-overrides #riderCard1{
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all .2s ease-in-out;
+}
+
+#bootstrap-overrides #riderCard1:hover{
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+}
+
+#bootstrap-overrides #riderCard2{
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all .2s ease-in-out;
+}
+
+#bootstrap-overrides #riderCard2:hover{
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+}
+
+#bootstrap-overrides #riderCard3{
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all .2s ease-in-out;
+}
+
+#bootstrap-overrides #riderCard3:hover{
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+}
+
+#bootstrap-overrides #riderCard4{
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all .2s ease-in-out;
+}
+
+#bootstrap-overrides #riderCard4:hover{
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+}
+
+#bootstrap-overrides #riderCard5{
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all .2s ease-in-out;
+}
+
+#bootstrap-overrides #riderCard5:hover{
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+}
+
+#bootstrap-overrides #riderCard6{
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all .2s ease-in-out;
+}
+
+#bootstrap-overrides #riderCard6:hover{
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+}
+
+#bootstrap-overrides #riderCard7{
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all .2s ease-in-out;
+}
+
+#bootstrap-overrides #riderCard7:hover{
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+}
+
+#bootstrap-overrides #riderCard8{
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all .2s ease-in-out;
+}
+
+#bootstrap-overrides #riderCard8:hover{
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+}
+
+#bootstrap-overrides #riderCard9{
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all .2s ease-in-out;
+}
+
+#bootstrap-overrides #riderCard9:hover{
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+}
+
+#bootstrap-overrides #riderCard10{
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all .2s ease-in-out;
+}
+
+#bootstrap-overrides #riderCard10:hover{
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+}
+
+#bootstrap-overrides #riderCard11{
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all .2s ease-in-out;
+}
+
+#bootstrap-overrides #riderCard11:hover{
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
 }
