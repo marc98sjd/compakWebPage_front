@@ -108,18 +108,6 @@ nav{
   border-radius: 15px;
 }
 
-.card1{
-  background-color: yellow;
-}
-
-.card2{
-  background-color: aqua;
-}
-
-.card3{
-background-color: red;
-}
-
 .slick-prev{
 background-color: black;
   color: black;
@@ -132,6 +120,11 @@ background-color: black;
   background: #ae2;
   border-bottom: 4px solid #FFFFFF;
   content: '';
+}
+
+.riderCard{
+  height: 100%;
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1));
 }
 
 #bootstrap-overrides .riderCard{
@@ -268,4 +261,35 @@ background-color: black;
   filter: none;
   -webkit-filter: grayscale(0);
   -webkit-transform: scale(1.01);
+}
+
+.riderName {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.partnerImg{
+  max-height: 100px;
+  max-width: 100%;
+}
+
+.redes{
+  vertical-align: middle;
+}
+
+.media{
+  width: 100%;
+}
+
+.social-link{
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+  font-size: xx-large;
+}
+
+.social-link:hover{
+  color: #ae2;
 }
