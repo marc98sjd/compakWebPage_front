@@ -74,7 +74,7 @@ nav{
 }
 
 #bootstrap-overrides .card{
-  border: none;
+
 }
 
 .circulo{
@@ -113,7 +113,7 @@ background-color: black;
   color: black;
 }
 
-#riderCarousel:before, footer:before{
+#riderCarousel:before, footer:before, .footer2:before{
   display: block;
   width: 100%;
   height: 8px;
@@ -129,6 +129,8 @@ background-color: black;
 
 #bootstrap-overrides .riderCard{
   border-radius: 25px;
+  border: none;
+  position: relative;
 }
 
 #bootstrap-overrides #riderCard1{
@@ -268,6 +270,7 @@ background-color: black;
   bottom: 5%;
   left: 50%;
   transform: translate(-50%, -50%);
+  color: white;
 }
 
 .partnerImg{
@@ -275,11 +278,11 @@ background-color: black;
   max-width: 100%;
 }
 
-.redes{
+.footerElement{
   vertical-align: middle;
 }
 
-.media{
+.fullWidth{
   width: 100%;
 }
 

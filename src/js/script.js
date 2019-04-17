@@ -55,7 +55,7 @@ function includeHTML() {
     }
 }
 
-let altura = $(".noticias").height();
+var altura = $(".noticias").height();
 function setTwitterHeight(altura) {
     $(".twitter-timeline").attr('data-height', altura);
 }
